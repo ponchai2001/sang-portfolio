@@ -26,8 +26,10 @@ A motion-rich, fully interactive personal portfolio website for full-stack devel
 | 📁 About        | Code-like JSON profile with scroll-reveal animations                        |
 | 🛠️ Skills       | Rive-animated tech stack icons with hover interactions                      |
 | 📂 Projects     | VSCode-style project cards with animated modals                             |
+| 🎓 Certificates | Verified certificates showcased in a scrollable, animated timeline format   |
 | 🧠 Interactive  | Scroll-triggered visual storytelling using sticky canvas                    |
 | 📬 Contact      | Animated terminal-style contact area with social icons                      |
+
 
 ---
 
