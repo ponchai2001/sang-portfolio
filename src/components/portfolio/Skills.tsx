@@ -6,12 +6,14 @@ import {
   SiNodedotjs, 
   SiMongodb, 
   SiPostgresql,
-  SiGit,
-  SiDocker,
   SiTailwindcss,
-  SiExpress
+  SiExpress,
+  SiJavascript,
+  SiCplusplus
 } from "react-icons/si";
-import { Cloud } from "lucide-react";
+import { FaJava } from "react-icons/fa";
+import { 	TbBrandNextjs } from "react-icons/tb";
+
 
 const Skills = () => {
   const ref = useRef(null);
@@ -23,6 +25,7 @@ const Skills = () => {
       title: "Frontend",
       skills: [
         { name: "React", level: 90, icon: SiReact, color: "#61DAFB" },
+        { name: "Next", level: 80, icon: 	TbBrandNextjs, color: "#61DAFB" },
         { name: "TypeScript", level: 85, icon: SiTypescript, color: "#3178C6" },
         { name: "Tailwind CSS", level: 88, icon: SiTailwindcss, color: "#06B6D4" },
       ]
@@ -42,11 +45,11 @@ const Skills = () => {
       ]
     },
     {
-      title: "DevOps",
+      title: "Language",
       skills: [
-        { name: "Git", level: 90, icon: SiGit, color: "#F05032" },
-        { name: "Docker", level: 75, icon: SiDocker, color: "#2496ED" },
-        { name: "AWS", level: 70, icon: Cloud, color: "#FF9900" },
+        { name: "C++", level: 90, icon: SiCplusplus, color: "#F05032" },
+        { name: "JavaScript", level: 80, icon: SiJavascript, color: "#2496ED" },
+        { name: "Java", level: 70, icon: FaJava, color: "#FF9900" },
       ]
     }
   ];
