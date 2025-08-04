@@ -13,113 +13,87 @@ const Projects = () => {
 
   const projects = [
     {
-      id: 1,
-      title: "Soni Jewellers",
-      description: "A real-time, fully responsive e-commerce platform tailored for a jewellery store.",
-      longDescription: "A feature-rich jewellery e-commerce platform built with Next.js 14 (App Router), Supabase, and Tailwind CSS. It includes secure authentication, product browsing, wishlist, cart functionality, dynamic pricing based on metal rates, and a powerful admin dashboard for managing products and orders.",
-      tech: ["Next.js 14", "TypeScript", "Tailwind CSS", "Supabase", "ShadCN UI", "Radix UI", "Lucide React"],
-      category: "fullstack",
-      image: "/project1.png",
-      github: "https://github.com/abheeshakespeare/Soni-Jewellers",
-      live: "https://www.soninavratnajewellers.in",
-      features: [
-        "Authentication with Supabase (Email/Password + Google OAuth)",
-        "Premium jewelry catalog with filters and search",
-        "Wishlist functionality",
-        "Shopping cart with localStorage persistence",
-        "Dynamic pricing based on metal rates",
-        "Order placement with advance payment",
-        "Order tracking and status updates",
-        "Responsive design for all devices",
-        "Admin panel for managing products, categories, orders, users, and metal rates",
-        "Dashboard with analytics"
-      ]
-    },
-    {
-      id: 2,
-      title: "Arya Bhumi Seva Sansthan",
-      description: "A Real-Time Digital platform for a non-profit focused on health, education, and social welfare",
-      longDescription: "A web application built for Arya Bhumi Seva Sansthan, a non-profit organization dedicated to delivering community services in healthcare, education, and welfare. Developed using Next.js 13, Supabase, and Tailwind CSS, the platform includes multi-language support, secure authentication, responsive UI, and is deployed on a KVM VPS using PM2 for process management.",
-      tech: [
-        "Next.js 13",
-        "TypeScript",
-        "Tailwind CSS",
-        "Supabase",
-        "Supabase Auth",
-        "CloudPanel + PM2"
-      ],
-      category: "fullstack",
-      image: "/project2.png",
-      github: "https://github.com/abheeshakespeare/AryaBhumiSevaSanathan",
-      live: "https://aryabhumisevasansthan.org",
-      features: [
-        "Healthcare initiative modules",
-        "Educational program listings",
-        "Social welfare project highlights",
-        "Multi-language support for regional accessibility",
-        "Secure authentication with Supabase Auth",
-        "Responsive design for all devices",
-        "Self-hosted deployment on VPS using CloudPanel & PM2"
-      ]
-    },
-    {
-      id: 3,
-      title: "My Portfolio",
-      description: "Motion-rich full-stack developer portfolio website",
-      longDescription: "A highly interactive and animated portfolio website showcasing my work as a full-stack web developer. Built with Next.js 14 and Tailwind CSS, it features smooth page transitions, Rive animations, and custom UI interactions. The site includes a terminal-style about section, dynamic project cards, and a coding-inspired design language—all fully responsive and database-free.",
-      tech: [
-        "Next.js 14",
-        "TypeScript",
-        "Tailwind CSS",
-        "Framer Motion",
-        "Rive",
-        "ShadCN UI",
-        "Lucide React"
-      ],
-      category: "fullstack",
-      image: "/project3.png",
-      github: "https://github.com/abheeshakespeare/MyPortfolio",
-      live: "/",
-      features: [
-        "Framer Motion animations for smooth page transitions",
-        "Rive animations integrated in UI sections",
-        "Terminal-inspired about section with JSON styling",
-        "Interactive project showcase with categories",
-        "Dark mode support",
-        "Fully responsive layout",
-        "No backend or database dependencies"
-      ]
-    },
-    {
-      id: 4,
-      title: "Insight Notes",
-      description: "A powerful AI-integrated note-taking and creative writing platform",
-      longDescription: "Insight Notes is a feature-rich application designed for both academic organization and     creative expression. It empowers users with AI-driven insights, seamless tag management, full-text search,    and a distraction-free writing experience. Built with Supabase, this app supports real-time sync,   intelligent note retrieval, and smooth categorization. Ideal for students, writers, and knowledge seekers.   ",
-      tech: [
-        "React",
-        "Next.js",
-        "TypeScript",
-        "Tailwind CSS",
-        "Supabase",
-        "Gemini-2.5-Flash",
-        "ShadCN UI"
-      ],
-      category: "fullstack",
-      image: "/project4.png", // Make sure to add this image inside /public
-      github: "https://github.com/abheeshakespeare/InsightNotesApp",
-      live: "https://insight-notes.vercel.app/", // Replace with your actual deployed link
-      features: [
-        "Academic note organization with rich formatting",
-        "Creative writing tools with AI enhancement",
-        "AI Assistant for insights, summaries, and suggestions",
-        "Custom tag management system",
-        "Full-text search across all notes",
-        "Supabase-powered backend with UUID support",
-        "Responsive design with modern UI components"
-      ]
-    }
-
-  ];
+    id: 1,
+    title: "ระบบสร้างเว็บไซต์เช่ารถท่องเที่ยว",
+    description: "แพลตฟอร์มที่ให้ผู้ไม่มีพื้นฐานการเขียนโค้ดสามารถสร้างเว็บไซต์เช่ารถได้ด้วยตนเอง ฟรี และยืดหยุ่นสูง",
+    longDescription:
+      "ระบบนี้ถูกพัฒนาระหว่างการฝึกงานที่บริษัท PPCNSEO โดยใช้ PHP, React, Next.js, Tailwind, Bootstrap, HTML, CSS, และ JavaScript ร่วมกับฐานข้อมูล SQL เครื่องมือที่ใช้ ได้แก่ VSCode, HeidiSQL, Git, Jira และ Bitbucket มีระบบหลังบ้านและหน้าบ้านที่สามารถออกแบบได้อย่างอิสระ รองรับผู้ใช้งานที่ไม่ใช่นักพัฒนา",
+    tech: [
+      "PHP",
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Bootstrap",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "SQL",
+      "HeidiSQL"
+    ],
+    category: "fullstack",
+    image: "/project-ecmlite.png",
+    github: "https://github.com/pornchai123",
+    live: "https://uat.ecmlite.ecoachmanager.com/self_register/",
+    features: [
+      "สร้างเว็บไซต์เช่ารถแบบไม่ต้องเขียนโค้ด",
+      "ระบบลากวางและการออกแบบที่ยืดหยุ่น",
+      "รองรับหลายภาษา",
+      "ระบบจัดการข้อมูลรถและคำสั่งจอง",
+      "ออกแบบมาให้เหมาะกับผู้ไม่มีพื้นฐานโปรแกรมมิ่ง"
+    ]
+  },
+  {
+    id: 2,
+    title: "ระบบจองรถของศูนย์หัวใจสิริกิติ์",
+    description: "ระบบจัดการจองรถยนต์ภายในองค์กร รองรับการจอง ตรวจสอบสถานะ และการอนุมัติแบบออนไลน์",
+    longDescription:
+      "พัฒนาด้วย PHP Framework Kotchasan และฐานข้อมูล MySQL ถูกใช้งานจริงภายในศูนย์หัวใจสิริกิติ์ คณะแพทยศาสตร์ มหาวิทยาลัยขอนแก่น ช่วยลดขั้นตอนเอกสารและเพิ่มความสะดวกในการบริหารจัดการรถยนต์",
+    tech: ["PHP", "Kotchasan", "MySQL", "Tailwind CSS"],
+    category: "backend",
+    image: "/project-kku-car-booking.png",
+    github: "https://github.com/pornchai123",
+    features: [
+      "ระบบจองรถแบบออนไลน์",
+      "รองรับหลายสถานะ (จอง, อนุมัติ, ยกเลิก)",
+      "ดูปฏิทินการใช้งานรถได้แบบเรียลไทม์",
+      "ส่งแจ้งเตือนผ่านอีเมลภายในองค์กร"
+    ]
+  },
+  {
+    id: 3,
+    title: "ระบบสร้างสลิปรหัสผ่าน QR Code",
+    description: "ระบบสร้างสลิปให้พนักงานพร้อมรหัสผ่านชั่วคราวและ QR Code ที่มีวันหมดอายุ",
+    longDescription:
+      "ระบบนี้ใช้ React, PHP, และ Tailwind CSS พัฒนาขึ้นเพื่อให้พนักงานสามารถรับสลิปรหัสผ่านแบบ QR ได้ทันที โดยมีการเข้ารหัสและกำหนดวันหมดอายุอย่างปลอดภัย",
+    tech: ["React", "PHP", "Tailwind CSS", "QRCode.js", "MySQL"],
+    category: "fullstack",
+    image: "/project-password-slip.png",
+    github: "https://github.com/pornchai123",
+    features: [
+      "สร้าง QR Code พร้อมวันหมดอายุ",
+      "ป้องกันการเข้าถึงโดยไม่ได้รับอนุญาต",
+      "ระบบตรวจสอบสิทธิ์ก่อนสร้างสลิป",
+      "รองรับหลายรูปแบบของผู้ใช้งาน (แผนก, ตำแหน่ง)"
+    ]
+  },
+  {
+    id: 4,
+    title: "ระบบวิเคราะห์ธนบัตรไทยด้วย AI สำหรับผู้พิการทางสายตา",
+    description: "แอปบนมือถือที่ใช้ AI วิเคราะห์ภาพธนบัตรแบบเรียลไทม์และแจ้งข้อมูลผ่านเสียง",
+    longDescription:
+      "ระบบนี้พัฒนาโดยใช้ Flutter และโมเดล YOLOv8 เพื่อให้ผู้พิการทางสายตาสามารถวิเคราะห์ธนบัตรไทยได้ด้วยสมาร์ทโฟน พร้อมฟีดแบ็กด้วยเสียงผ่าน Text-to-Speech",
+    tech: ["Flutter", "Python", "YOLOv8", "TensorFlow", "TTS"],
+    category: "mobile",
+    image: "/project-thai-banknote-ai.png",
+    github: "https://github.com/pornchai123",
+    features: [
+      "วิเคราะห์ธนบัตรแบบเรียลไทม์",
+      "ใช้งานง่ายด้วยสมาร์ทโฟน",
+      "ออกแบบเฉพาะสำหรับผู้พิการทางสายตา",
+      "แจ้งชื่อธนบัตรด้วยเสียง (Text-to-Speech)"
+    ]
+  }
+];
 
   const getCategoryIcon = (category: string) => {
     switch(category) {

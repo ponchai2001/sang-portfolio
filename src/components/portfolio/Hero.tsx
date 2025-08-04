@@ -117,7 +117,7 @@ const Hero = () => {
               <div className="terminal-dot yellow"></div>
               <div className="terminal-dot green"></div>
               <span className="text-muted-foreground font-mono text-xs ml-4">
-                abhishek@portfolio:~$
+                ponchai.paramee@portfolio:~$
               </span>
             </div>
             <div className="terminal-content">
@@ -129,7 +129,7 @@ const Hero = () => {
                 <br />
                 <span className="ml-4 text-syntax-string">"name"</span>
                 <span className="text-foreground">:</span>{" "}
-                <span className="text-syntax-string">"Abhishek Kr. Mishra"</span>
+                <span className="text-syntax-string">"Ponchai Kambu"</span>
                 <span className="text-foreground">,</span>
                 <br />
                 <span className="ml-4 text-syntax-string">"role"</span>
@@ -167,7 +167,7 @@ const Hero = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.7 }}
               >
-                Hi, I'm Abhishek
+                Hi, I'm Ponchai Kambu
               </motion.span>
               
             </motion.h1>
@@ -219,7 +219,7 @@ const Hero = () => {
             },
             {
               icon: Mail,
-              href: "mailto:kumarabhishekmishra@28gmail.com",
+              href: "mailto:ponchai.paramee@gmail.com",
               label: "Email",
             },
           ].map(({ icon: Icon, href, label }) => (

@@ -44,34 +44,28 @@ const Contact = () => {
   const socialLinks = [
     { 
       icon: Github, 
-      href: "https://github.com/abheeshakespeare", 
+      href: "https://github.com/ponchai2001", 
       label: "GitHub",
-      username: "@abheeshakespeare"
+      username: "@ponchai2001"
     },
     { 
       icon: Linkedin, 
-      href: "https://www.linkedin.com/in/abheeshakespeare/", 
+      href: "https://linkedin.com/in/ponchai-kambu-b6a6512a0", 
       label: "LinkedIn",
-      username: "abheeshakespeare"
-    },
-    {
-      icon: XIcon,
-      href: "https://twitter.com/kr_abhi__",
-      label: "X",
-      username: "@kr_abhi__"
+      username: "@ponchai-kambu"
     },
     { 
       icon: Mail, 
-      href: "mailto:kumarabhishekmishra28@gmail.com", 
+      href: "mailto:ponchai.paramee@gmail.com", 
       label: "Email",
-      username: "kumarabhishekmishra28@gmail.com"
+      username: "ponchai.paramee@gmail.com"
     }
   ];
 
   const contactInfo = [
-    { icon: MapPin, label: "Location", value: "Ranchi, JH" },
-    { icon: Phone, label: "Phone", value: "+91 9334905084" },
-    { icon: Mail, label: "Email", value: "kumarabhishekmishra28@gmail.com" }
+    { icon: MapPin, label: "Location", value: "Thailand, Bangkok" },
+    { icon: Phone, label: "Phone", value: "+66 2303 5536" },
+    { icon: Mail, label: "Email", value: "ponchai.paramee@gmail.com" }
   ];
 
   return (

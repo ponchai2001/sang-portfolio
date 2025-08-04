@@ -1,16 +1,16 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Code, Coffee, Lightbulb, Rocket } from "lucide-react";
+import { Code, Coffee, GraduationCap, Rocket } from "lucide-react";
 
 const About = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
   const stats = [
-    { icon: Code, value: "10+", label: "Projects Completed" },
-    { icon: Coffee, value: "1000+", label: "Cups of Coffee" },
-    { icon: Lightbulb, value: "1", label: "Year Freelance Experience" },
-    { icon: Rocket, value: "99%", label: "Client Satisfaction" }
+    { icon: Code, value: "4+", label: "โครงการที่พัฒนา" },
+    { icon: Coffee, value: "1000+", label: "แก้วกาแฟ" },
+    { icon: GraduationCap, value: "3.38", label: "เกรดเฉลี่ยปริญญาตรี" },
+    { icon: Rocket, value: "99%", label: "ความพึงพอใจจากผู้ใช้" }
   ];
 
   return (
@@ -54,43 +54,37 @@ const About = () => {
               <div className="terminal-dot yellow"></div>
               <div className="terminal-dot green"></div>
               <span className="text-muted-foreground font-mono text-xs ml-4">
-                about.json
+                ponchai.json
               </span>
             </div>
             <div className="terminal-content">
               <pre className="text-sm leading-relaxed whitespace-pre-wrap break-words overflow-x-auto">
                 <span className="text-foreground">{'{'}</span>
                 <br />
-                <span className="ml-4 text-syntax-string">"passion"</span>
-                <span className="text-foreground">:</span>{" "}
-                <span className="text-syntax-string">"Building digital solutions that matter"</span>
-                <span className="text-foreground">,</span>
+                <span className="ml-4 text-syntax-string">"name"</span>: <span className="text-syntax-string">"พรชัย คำบุ"</span>,
                 <br />
-                <span className="ml-4 text-syntax-string">"specialty"</span>
-                <span className="text-foreground">:</span>{" "}
-                <span className="text-foreground">[</span>
+                <span className="ml-4 text-syntax-string">"email"</span>: <span className="text-syntax-string">"ponchai.paramee@gmail.com"</span>,
                 <br />
-                <span className="ml-8 text-syntax-string">"Full Stack Development"</span>
-                <span className="text-foreground">,</span>
+                <span className="ml-4 text-syntax-string">"education"</span>: <span className="text-syntax-string">"วิทยาการคอมพิวเตอร์, ม.ราชภัฏเลย (เกรด 3.38)"</span>,
                 <br />
-                <span className="ml-8 text-syntax-string">"React & Next.js"</span>
-                <span className="text-foreground">,</span>
+                <span className="ml-4 text-syntax-string">"experience"</span>: <span className="text-syntax-string">"ฝึกงานที่ PPCNSEO และทำงานที่ศูนย์หัวใจ รพ.ศรีนครินทร์"</span>,
                 <br />
-                <span className="ml-8 text-syntax-string">"Problem Solving"</span>
-                <span className="text-foreground">,</span>
+                <span className="ml-4 text-syntax-string">"skills"</span>: [<br />
+                <span className="ml-8 text-syntax-string">"PHP"</span>,
+                <span className="text-foreground"> </span>
+                <span className="text-syntax-string">"React, Next.js"</span>,
+                <span className="text-foreground"> </span>
+                <span className="text-syntax-string">"Tailwind, Bootstrap"</span>,
+                <span className="text-foreground"> </span>
+                <span className="text-syntax-string">"HTML, CSS, JavaScript"</span>,
                 <br />
-                <span className="ml-8 text-syntax-string">"Database Design"</span>
+                <span className="ml-8 text-syntax-string">"SQL Server, MySQL"</span>
                 <br />
                 <span className="ml-4 text-foreground">],</span>
                 <br />
-                <span className="ml-4 text-syntax-string">"philosophy"</span>
-                <span className="text-foreground">:</span>{" "}
-                <span className="text-syntax-string">"Clean code is not written by following rules. Clean code is written by developers who care."</span>
-                <span className="text-foreground">,</span>
+                <span className="ml-4 text-syntax-string">"tools"</span>: <span className="text-syntax-string">"VSCode, Git, Jira, Docker, SSMS, FileZilla"</span>,
                 <br />
-                <span className="ml-4 text-syntax-string">"currentFocus"</span>
-                <span className="text-foreground">:</span>{" "}
-                <span className="text-syntax-string">"Exploring AI integration in web apps"</span>
+                <span className="ml-4 text-syntax-string">"interest"</span>: <span className="text-syntax-string">"ออกแบบ, โดรน, ออกกำลังกาย, AI"</span>
                 <br />
                 <span className="text-foreground">{'}'}</span>
               </pre>
@@ -127,14 +121,10 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
           >
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              My journey into web development began with curiosity and a desire to bring ideas to life through code. 
-              What started as tinkering with HTML and CSS has evolved into a passion for creating full-stack applications 
-              that solve real-world problems.
+              ผมชื่อพรชัย คำบุ สนใจการพัฒนาเว็บแอปพลิเคชันที่สามารถนำไปใช้จริงและแก้ปัญหาให้ผู้ใช้งานได้ เคยพัฒนาโครงการด้วย PHP, React, Next.js, Flutter และใช้งาน AI (YOLOv8) ในการตรวจจับวัตถุบนมือถือ
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I believe in writing code that's not just functional, but elegant and maintainable. 
-              When I'm not coding, you'll find me exploring new technologies, contributing to open source, 
-              or sharing knowledge with the developer community.
+              ปัจจุบันทำงานที่ศูนย์หัวใจสิริกิติ์ คณะแพทย์ ม.ขอนแก่น มีหน้าที่พัฒนาโปรแกรม ดูแลระบบ และอุปกรณ์ไอทีต่าง ๆ พร้อมเรียนรู้และทดลองสิ่งใหม่ ๆ เสมอ
             </p>
           </motion.div>
 
