@@ -8,10 +8,10 @@ const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
   
   const roles = [
-    "Full Stack Developer",
-    "React Specialist", 
-    "Node.js Expert",
-    "Problem Solver"
+    "Frontend Developer",
+    "IT Support",
+    "Web Developer",
+    "Computer Technical Officer",
   ];
 
   useEffect(() => {
@@ -63,7 +63,7 @@ const Hero = () => {
               fontSize: `${12 + Math.random() * 8}px`
             }}
           >
-            {["const", "function", "return", "async", "await", "=>", "{}", "[]", "import", "export", "class", "interface"][i]}
+            {["const", "function", "return", "async", "await", "=>", "{}", "[]", "import", "export", "class", "interface","sangt","Love"][i]}
           </motion.div>
         ))}
       </div>
@@ -173,8 +173,8 @@ const Hero = () => {
             </motion.h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Crafting digital experiences with modern web technologies. 
-              Passionate about clean code, beautiful UIs, and scalable solutions.
+              ผมเป็นนักพัฒนาเว็บไซต์ และเจ้าหน้าที่สนับสนุนระบบไอที ที่มีความหลงใหลในงานออกแบบ และ
+              สร้างประสบการณ์ดิจิทัลด้วยเทคโนโลยีเว็บที่ทันสมัยหลงใหลในโค้ดที่สะอาด UI ที่สวยงาม และโซลูชันที่ปรับขนาดได้ตามความต้องการของผู้ใช้งาน.
             </p>
           </motion.div>
 
@@ -209,12 +209,12 @@ const Hero = () => {
             {[
             {
               icon: Github,
-              href: "https://github.com/abheeshakespeare",
+              href: "https://github.com/ponchai2001",
               label: "GitHub",
             },
             {
               icon: Linkedin,
-              href: "https://www.linkedin.com/in/abheeshakespeare/",
+              href: "https://www.linkedin.com/in/ponchai-kambu-b6a6512a0",
               label: "LinkedIn",
             },
             {

@@ -67,7 +67,7 @@ const About = () => {
                 <br />
                 <span className="ml-4 text-syntax-string">"education"</span>: <span className="text-syntax-string">"วิทยาการคอมพิวเตอร์, ม.ราชภัฏเลย (เกรด 3.38)"</span>,
                 <br />
-                <span className="ml-4 text-syntax-string">"experience"</span>: <span className="text-syntax-string">"ฝึกงานที่ PPCNSEO และทำงานที่ศูนย์หัวใจ รพ.ศรีนครินทร์"</span>,
+                <span className="ml-4 text-syntax-string">"experience"</span>: <span className="text-syntax-string">"ฝึกงานที่ PPCNSEO และทำงานที่ ศูนย์หัวใจสิริกิติ์ คณะแพทย์ มหาวิทยาลัยขอนแก่น"</span>,
                 <br />
                 <span className="ml-4 text-syntax-string">"skills"</span>: [<br />
                 <span className="ml-8 text-syntax-string">"PHP"</span>,
@@ -124,7 +124,7 @@ const About = () => {
               ผมชื่อพรชัย คำบุ สนใจการพัฒนาเว็บแอปพลิเคชันที่สามารถนำไปใช้จริงและแก้ปัญหาให้ผู้ใช้งานได้ เคยพัฒนาโครงการด้วย PHP, React, Next.js, Flutter และใช้งาน AI (YOLOv8) ในการตรวจจับวัตถุบนมือถือ
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              ปัจจุบันทำงานที่ศูนย์หัวใจสิริกิติ์ คณะแพทย์ ม.ขอนแก่น มีหน้าที่พัฒนาโปรแกรม ดูแลระบบ และอุปกรณ์ไอทีต่าง ๆ พร้อมเรียนรู้และทดลองสิ่งใหม่ ๆ เสมอ
+              ปัจจุบันทำงานที่ศูนย์หัวใจสิริกิติ์ คณะแพทย์ มหาวิทยาลัยขอนแก่น มีหน้าที่พัฒนาโปรแกรม ดูแลระบบ และอุปกรณ์ไอทีต่าง ๆ พร้อมเรียนรู้และทดลองสิ่งใหม่ ๆ เสมอ
             </p>
           </motion.div>
 

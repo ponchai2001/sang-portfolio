@@ -30,9 +30,9 @@ const Projects = () => {
       "SQL",
       "HeidiSQL"
     ],
-    category: "fullstack",
+    category: "frontend",
     image: "/project-ecmlite.png",
-    github: "https://github.com/pornchai123",
+    github: "https://github.com/ponchai2001",
     live: "https://uat.ecmlite.ecoachmanager.com/self_register/",
     features: [
       "สร้างเว็บไซต์เช่ารถแบบไม่ต้องเขียนโค้ด",
@@ -48,10 +48,10 @@ const Projects = () => {
     description: "ระบบจัดการจองรถยนต์ภายในองค์กร รองรับการจอง ตรวจสอบสถานะ และการอนุมัติแบบออนไลน์",
     longDescription:
       "พัฒนาด้วย PHP Framework Kotchasan และฐานข้อมูล MySQL ถูกใช้งานจริงภายในศูนย์หัวใจสิริกิติ์ คณะแพทยศาสตร์ มหาวิทยาลัยขอนแก่น ช่วยลดขั้นตอนเอกสารและเพิ่มความสะดวกในการบริหารจัดการรถยนต์",
-    tech: ["PHP", "Kotchasan", "MySQL", "Tailwind CSS"],
-    category: "backend",
+    tech: ["PHP", "Kotchasan", "MySQL"],
+    category: "fullstack",
     image: "/project-kku-car-booking.png",
-    github: "https://github.com/pornchai123",
+    github: "https://github.com/ponchai2001",
     features: [
       "ระบบจองรถแบบออนไลน์",
       "รองรับหลายสถานะ (จอง, อนุมัติ, ยกเลิก)",
@@ -68,7 +68,7 @@ const Projects = () => {
     tech: ["React", "PHP", "Tailwind CSS", "QRCode.js", "MySQL"],
     category: "fullstack",
     image: "/project-password-slip.png",
-    github: "https://github.com/pornchai123",
+    github: "https://github.com/ponchai2001",
     features: [
       "สร้าง QR Code พร้อมวันหมดอายุ",
       "ป้องกันการเข้าถึงโดยไม่ได้รับอนุญาต",
@@ -85,12 +85,48 @@ const Projects = () => {
     tech: ["Flutter", "Python", "YOLOv8", "TensorFlow", "TTS"],
     category: "mobile",
     image: "/project-thai-banknote-ai.png",
-    github: "https://github.com/pornchai123",
+    github: "https://github.com/ponchai2001",
     features: [
       "วิเคราะห์ธนบัตรแบบเรียลไทม์",
       "ใช้งานง่ายด้วยสมาร์ทโฟน",
       "ออกแบบเฉพาะสำหรับผู้พิการทางสายตา",
       "แจ้งชื่อธนบัตรด้วยเสียง (Text-to-Speech)"
+    ]
+  },
+    {
+    id: 5,
+    title: "เที่ยวเลย",
+    description: "ประวัติความเป็นมาของจังหวัดเลยสถานที่ท่องเที่ยวและกิจกรรมต่างๆ",
+    longDescription:
+      "ระบบนี้พัฒนาโดยใช้ ้ HTML, CSS, และ JavaScript เพื่อให้ผู้ใช้งานสามารถเข้าถึงข้อมูลเกี่ยวกับจังหวัดเลยได้อย่างง่ายดาย",
+    tech: ["html", "css", "javascript"],
+    category: "frontend",
+    image: "/project-thai-banknote-ai.png",
+    github: "https://github.com/ponchai2001",
+    live: "https://ponchai2001.github.io/Loei.html",
+    features: [
+      "ข้อมูลประวัติศาสตร์และวัฒนธรรมของจังหวัดเลย",
+      "ออกแบบให้ใช้งานง่ายบนเว็บ",
+      "รองรับการเข้าถึงจากอุปกรณ์ต่างๆ",
+      "มีข้อมูลแหล่งท่องเที่ยวและกิจกรรมในจังหวัด"
+    ]
+  },
+    {
+    id: 6,
+    title: "โรงแรม",
+    description: "ที่พักจองห้องพักออนไลน์กิจกรรมและบริการต่างๆ",
+    longDescription:
+      "ระบบนี้พัฒนาโดยใช้ HTML, CSS, และ JavaScript เพื่อให้ผู้ใช้งานสามารถจองห้องพักออนไลน์ได้อย่างง่ายดาย",
+    tech: ["html", "css", "javascript"],
+    category: "front",
+    image: "/project-thai-banknote-ai.png",
+    github: "https://github.com/ponchai2001",
+    live: "https://ponchai2001.github.io/HotelTest.html",
+    features: [
+      "ระบบจองห้องพักออนไลน์",
+      "รองรับการค้นหาห้องพักตามวันที่และประเภท",
+      "มีระบบจัดการการจองและยกเลิก",
+      "ออกแบบให้ใช้งานง่ายบนเว็บ"
     ]
   }
 ];
@@ -244,7 +280,7 @@ const Projects = () => {
           </div>
 
           {/* Code Repository Stats */}
-          <motion.div
+          {/* <motion.div
             className="terminal-window"
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -278,7 +314,7 @@ const Projects = () => {
                 <span className="text-foreground">style: implement dark mode theme</span>
               </pre>
             </div>
-          </motion.div>
+          </motion.div> */}
 
           {/* Closing Bracket */}
           <motion.div

@@ -9,42 +9,50 @@ const Certificates = () => {
 
   const certificates = [
     {
-      title: "AWS Certified Solutions Architect",
-      issuer: "Amazon Web Services",
-      date: "2023",
-      credentialId: "AWS-SAA-2023-001",
-      description: "Expertise in designing and deploying scalable systems on AWS",
-      skills: ["AWS", "Cloud Architecture", "System Design"],
+      title: "SET",
+      issuer: "Design Thinking",
+      date: "2021",
+      credentialId: "BMD1001000125641079067",
+      description: "",
+      skills: ["design", "thinking"],
       verified: true,
       link: "#"
     },
     {
-      title: "React Advanced Certification",
-      issuer: "Meta",
-      date: "2023",
-      credentialId: "META-REACT-2023-456",
-      description: "Advanced React patterns, performance optimization, and modern hooks",
-      skills: ["React", "JavaScript", "Performance"],
-      verified: true,
-      link: "#"
-    },
-    {
-      title: "Full Stack Web Development",
-      issuer: "freeCodeCamp",
+      title: "Voova Group",
+      issuer: "Programmer",
       date: "2022",
-      credentialId: "FCC-FSWD-2022-789",
-      description: "Comprehensive full-stack development with modern technologies",
-      skills: ["Node.js", "MongoDB", "Express", "React"],
+      skills: ["PHP", "Next.js", "Design"],
       verified: true,
       link: "#"
     },
     {
-      title: "Google Cloud Professional",
-      issuer: "Google Cloud",
+      title: "มหาวิทยาลัยราชภัฏเลย",
+      issuer: "อบรมเสริมทักษะด้านภาษาอังกฤษ Oxford placement test และ English discoveries",
       date: "2023",
-      credentialId: "GCP-PRO-2023-101",
-      description: "Cloud infrastructure and application development on GCP",
-      skills: ["GCP", "Kubernetes", "DevOps"],
+      credentialId: "",
+      description: "",
+      skills: [""],
+      verified: true,
+      link: "#"
+    },
+    {
+      title: "มหาวิทยาลัยขอนแก่น",
+      issuer: "The Ultimate Design Tool for Education & Beyond",
+      date: "2025",
+      credentialId: "",
+      description: "",
+      skills: [""],
+      verified: true,
+      link: "#"
+    },
+    {
+      title: "มหาวิทยาลัยขอนแก่น",
+      issuer: "โครงการส่งเสริมการออกกกำลังกายที่หลากหลายของบุคลากร",
+      date: "2025",
+      credentialId: "",
+      description: "",
+      skills: [""],
       verified: true,
       link: "#"
     }

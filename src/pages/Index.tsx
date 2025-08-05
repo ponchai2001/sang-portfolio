@@ -49,7 +49,7 @@ const Index = () => {
       <footer className="py-8 border-t border-terminal-border bg-card/30">
         <div className="container mx-auto px-6 text-center">
           <p className="text-muted-foreground text-xs mt-2">
-            © 2025 Abhishek Kr. Mishra | All rights reserved.
+            © 2025 ponchai kambu | All rights reserved.
           </p>
         </div>
       </footer>
